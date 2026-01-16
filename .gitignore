@@ -1,0 +1,38 @@
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# VSCode
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# --- Node / Build (por si luego usás Vite/Next/etc) ---
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.tmp/
+.temp/
+coverage/
+
+# env
+.env
+.env.*.local
+
+# --- Deploy artifacts ---
+.vercel/
+.netlify/
+
+# --- Misc ---
+*.tgz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
